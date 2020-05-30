@@ -4,6 +4,73 @@
   
     
     <entry>
+      <title>python学习笔记</title>
+      <link href="/2020/053054657.html"/>
+      <url>/2020/053054657.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="python"><a href="#python" class="headerlink" title="python"></a>python</h1><h2 id="1、六大数据类型"><a href="#1、六大数据类型" class="headerlink" title="1、六大数据类型"></a>1、六大数据类型</h2><h3 id="数字类型计算-int-float-bool"><a href="#数字类型计算-int-float-bool" class="headerlink" title="数字类型计算 int float bool"></a>数字类型计算 int float bool</h3><h4 id="数据类型复杂度：bool-lt-int-lt-float"><a href="#数据类型复杂度：bool-lt-int-lt-float" class="headerlink" title="数据类型复杂度：bool<int<float"></a>数据类型复杂度：bool&lt;int&lt;float</h4><h3 id="强制转换"><a href="#强制转换" class="headerlink" title="强制转换"></a>强制转换</h3><pre><code>print（int(false))print(bool(0));:非0转换成true，0—》falseprint（int（19.9）):直接诶去掉小数点：19</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> 程序设计 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>mysql</title>
+      <link href="/2020/052813153.html"/>
+      <url>/2020/052813153.html</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>java学习笔记</title>
+      <link href="/2020/052147896.html"/>
+      <url>/2020/052147896.html</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 程序设计 </tag>
+            
+            <tag> java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>CSS-定位</title>
       <link href="/2020/043013442.html"/>
       <url>/2020/043013442.html</url>
@@ -45,9 +112,9 @@
       
         <tags>
             
-            <tag> css </tag>
-            
             <tag> 笔记 </tag>
+            
+            <tag> css </tag>
             
         </tags>
       
@@ -72,9 +139,9 @@
       
         <tags>
             
-            <tag> css </tag>
-            
             <tag> 笔记 </tag>
+            
+            <tag> css </tag>
             
         </tags>
       
@@ -99,9 +166,9 @@
       
         <tags>
             
-            <tag> 博客 </tag>
-            
             <tag> app </tag>
+            
+            <tag> 博客 </tag>
             
         </tags>
       
@@ -195,7 +262,7 @@
       <link href="/2020/04233337.html"/>
       <url>/2020/04233337.html</url>
       
-        <content type="html"><![CDATA[<h1 id="python操作数据库"><a href="#python操作数据库" class="headerlink" title="python操作数据库"></a>python操作数据库</h1><p><a href="https://imgchr.com/i/JDFRCF" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/24/JDFRCF.jpg" alt="JDFRCF.jpg"></a></p><h2 id="第一章：为什么要数据库-gt-数据量大-方便管理"><a href="#第一章：为什么要数据库-gt-数据量大-方便管理" class="headerlink" title="第一章：为什么要数据库->数据量大,方便管理"></a>第一章：为什么要数据库-&gt;数据量大,方便管理</h2><pre><code>    sqlite:嵌入式数据库,数据库就是一个文件    mysql:开源</code></pre><h3 id="第一节-数据库编程接口"><a href="#第一节-数据库编程接口" class="headerlink" title="第一节:数据库编程接口"></a>第一节:数据库编程接口</h3><pre><code>    OB_API:数据库标准规范：PEP249:API规范</code></pre><h4 id="1-连接对象：connect-函数创建"><a href="#1-连接对象：connect-函数创建" class="headerlink" title="1.连接对象：connect()函数创建"></a>1.连接对象：connect()函数创建</h4><pre><code>    参数：        dsn：数据源名称        user：用户名        password：用户密码        host：主机名        datebase：数据库名</code></pre><h5 id="1-connect的常用方法"><a href="#1-connect的常用方法" class="headerlink" title="1.connect的常用方法"></a>1.connect的常用方法</h5><pre><code>    方法：    cursor():获取游标对象    commit():提交事务    rollback():回滚事务    close():关闭数据库连接</code></pre><h5 id="2-事务：转钱失败-回滚"><a href="#2-事务：转钱失败-回滚" class="headerlink" title="2.事务：转钱失败-回滚"></a>2.事务：转钱失败-回滚</h5><h4 id="2-游标对象cursor"><a href="#2-游标对象cursor" class="headerlink" title="2.游标对象cursor"></a>2.游标对象cursor</h4><pre><code>    方法：    callproc：调用存储过程    close：关闭    execute：执行数据库操作    executemany：批量执行    fechone：获取查询结果下一条    fechmany：获取指定数量    fechall：获取结构集的所有记录    nextset：跳至下一个结果集</code></pre><h4 id="3-先关闭cur再关闭connect"><a href="#3-先关闭cur再关闭connect" class="headerlink" title="3.先关闭cur再关闭connect"></a>3.先关闭cur再关闭connect</h4><h3 id="第二节：创建数据库文件"><a href="#第二节：创建数据库文件" class="headerlink" title="第二节：创建数据库文件"></a>第二节：创建数据库文件</h3><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<h1 id="python操作数据库"><a href="#python操作数据库" class="headerlink" title="python操作数据库"></a>python操作数据库</h1><p><a href="https://imgchr.com/i/tVaisf" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/28/tVaisf.jpg" alt="tVaisf.jpg"></a></p><h2 id="序章：mysql安装配置"><a href="#序章：mysql安装配置" class="headerlink" title="序章：mysql安装配置"></a>序章：mysql安装配置</h2><p><a href="https://www.jianshu.com/p/647a596cb251" target="_blank" rel="noopener">https://www.jianshu.com/p/647a596cb251</a></p><p><a href="https://www.cnblogs.com/winton-nfs/p/11524007.html" target="_blank" rel="noopener">https://www.cnblogs.com/winton-nfs/p/11524007.html</a></p><h2 id="第一章：为什么要数据库-gt-数据量大-方便管理"><a href="#第一章：为什么要数据库-gt-数据量大-方便管理" class="headerlink" title="第一章：为什么要数据库->数据量大,方便管理"></a>第一章：为什么要数据库-&gt;数据量大,方便管理</h2><pre><code>    sqlite:嵌入式数据库,数据库就是一个文件    mysql:开源</code></pre><h3 id="第一节-数据库编程接口"><a href="#第一节-数据库编程接口" class="headerlink" title="第一节:数据库编程接口"></a>第一节:数据库编程接口</h3><pre><code>    OB_API:数据库标准规范：PEP249:API规范</code></pre><h4 id="1-连接对象：connect-函数创建"><a href="#1-连接对象：connect-函数创建" class="headerlink" title="1.连接对象：connect()函数创建"></a>1.连接对象：connect()函数创建</h4><pre><code>    参数：        dsn：数据源名称        user：用户名        password：用户密码        host：主机名        datebase：数据库名</code></pre><h5 id="1-connect的常用方法"><a href="#1-connect的常用方法" class="headerlink" title="1.connect的常用方法"></a>1.connect的常用方法</h5><pre><code>    方法：    cursor():获取游标对象    commit():提交事务    rollback():回滚事务    close():关闭数据库连接</code></pre><h5 id="2-事务：转钱失败-回滚"><a href="#2-事务：转钱失败-回滚" class="headerlink" title="2.事务：转钱失败-回滚"></a>2.事务：转钱失败-回滚</h5><h4 id="2-游标对象cursor"><a href="#2-游标对象cursor" class="headerlink" title="2.游标对象cursor"></a>2.游标对象cursor</h4><pre><code>    方法：    callproc：调用存储过程    close：关闭    execute：执行数据库操作    executemany：批量执行    fechone：获取查询结果下一条    fechmany：获取指定数量    fechall：获取结构集的所有记录    nextset：跳至下一个结果集</code></pre><h4 id="3-先关闭cur再关闭connect"><a href="#3-先关闭cur再关闭connect" class="headerlink" title="3.先关闭cur再关闭connect"></a>3.先关闭cur再关闭connect</h4><h3 id="第二节：创建数据库文件"><a href="#第二节：创建数据库文件" class="headerlink" title="第二节：创建数据库文件"></a>第二节：创建数据库文件</h3><h4 id="连接数据库"><a href="#连接数据库" class="headerlink" title="连接数据库"></a>连接数据库</h4><pre><code>#导入PyMySQL模块import pymysql#localhost是固定的host=localhost：不是连接名字#调用connect函数生产connection连接对象#不能换顺序，下面的参数顺序db = pymysql.connect(host = 'localhost',user= 'root',password = 'root',database = 'text')#调用cursor方法创建cursor对象cursor = db.cursor()#执行SQL语句cursor.execute('select version()')data = cursor.fetchone()print(data)#关闭连接cursor.close()db.close()</code></pre><h4 id="创建数据表"><a href="#创建数据表" class="headerlink" title="创建数据表"></a>创建数据表</h4><pre><code>#导入PyMySQL模块import pymysql#localhost是固定的host=localhost：不是连接名字#调用connect函数生产connection连接对象#不能换顺序，下面的参数顺序db = pymysql.connect(host = 'localhost',user= 'root',password = 'root',database = 'text')#调用cursor方法创建cursor对象cursor = db.cursor()cursor.execute('drop table if exists books')#执行SQL语句sql = """CREATE TABLE books(    id int(8) NOT NULL AUTO_INCREMENT,    name varchar(50) NOT NULL,    category varchar(50) NOT NULL,    price decimal(10,2) DEFAULT NULL,    publish_time date DEFAULT NULL,    PRIMARY KEY(id))ENGINE = MYISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;"""cursor.execute(sql)#关闭连接cursor.close()db.close()</code></pre><h4 id="操作数据表"><a href="#操作数据表" class="headerlink" title="操作数据表"></a>操作数据表</h4><pre><code>#导入PyMySQL模块import pymysql#localhost是固定的host=localhost：不是连接名字#调用connect函数生产connection连接对象#不能换顺序，下面的参数顺序db = pymysql.connect(host = 'localhost',user= 'root',password = 'root',database = 'text',charset = 'utf8')#调用cursor方法创建cursor对象cursor = db.cursor()#执行SQL语句data = [('lingisme9','python','79.89','2020-12-12'),('lingisme9','python','79.89','2020-12-12'),('lingisme9','python','79.89','2020-12-12'),('lingisme9','python','79.89','2020-12-12')]try:    sql = "insert into books(name,category,price,publish_time) values (%s,%s,%s,%s)"    cursor.executemany(sql,data)    db.commit()except:    db.rollback()#关闭连接cursor.close()db.close()</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       <categories>
@@ -247,60 +314,6 @@
     
     
     <entry>
-      <title>python学习笔记</title>
-      <link href="/2020/042254657.html"/>
-      <url>/2020/042254657.html</url>
-      
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      <categories>
-          
-          <category> python </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 程序设计 </tag>
-            
-            <tag> python </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>java学习笔记</title>
-      <link href="/2020/042247896.html"/>
-      <url>/2020/042247896.html</url>
-      
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      <categories>
-          
-          <category> java </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> java </tag>
-            
-            <tag> 程序设计 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>html学习笔记</title>
       <link href="/2020/042250736.html"/>
       <url>/2020/042250736.html</url>
@@ -344,9 +357,9 @@
       
         <tags>
             
-            <tag> 笔记 </tag>
-            
             <tag> C </tag>
+            
+            <tag> 笔记 </tag>
             
             <tag> 软件开发 </tag>
             
@@ -402,11 +415,42 @@
       
         <tags>
             
-            <tag> 笔记 </tag>
-            
             <tag> C </tag>
             
+            <tag> 笔记 </tag>
+            
             <tag> 软件开发 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>软件资源</title>
+      <link href="/2020/042027176.html"/>
+      <url>/2020/042027176.html</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 资源 </tag>
+            
+            <tag> 网络 </tag>
+            
+            <tag> 破解 </tag>
             
         </tags>
       
@@ -435,44 +479,13 @@
             
             <tag> 资源 </tag>
             
+            <tag> 破解 </tag>
+            
             <tag> 网站 </tag>
             
             <tag> 工具 </tag>
             
-            <tag> 破解 </tag>
-            
             <tag> 素材库 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>软件资源</title>
-      <link href="/2020/042027176.html"/>
-      <url>/2020/042027176.html</url>
-      
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      <categories>
-          
-          <category> 软件 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 资源 </tag>
-            
-            <tag> 破解 </tag>
-            
-            <tag> 软件 </tag>
-            
-            <tag> 网络 </tag>
             
         </tags>
       
